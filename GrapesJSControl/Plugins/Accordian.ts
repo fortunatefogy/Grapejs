@@ -1,5 +1,5 @@
 import type { Editor } from "grapesjs";
-
+// This is grapejs-plugin-accordion adapted for GrapesJSControl from
 export default function accordionPlugin(editor: Editor) {
   console.debug("[GJS-PCF] accordion: plugin init");
   const dc = editor.DomComponents;
