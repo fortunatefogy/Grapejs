@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control 
+    namespace="grapesjs" 
+    constructor="GrapesJSControl" 
+    version="1.4.0" 
+    display-name-key="GrapesJS_Display" 
+    description-key="GrapesJS_Description" 
+    control-type="standard"
+  >
+
+    <!-- Property bound to the HTML content field -->
+   <property 
+  name="htmlcontent"
+  display-name-key="multiLineHTMLField" 
+  description-key="Multi Line HTML Field"
+  of-type="SingleLine.TextArea"
+  usage="bound"
+  required="true" />
+
+
+    <!-- Resources -->
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="Resources/grapes.min.css" order="1" />
+      <css path="Resources/grapesjs-preset-newsletter.css" order="2" />
+    </resources>
+
+  </control>
+</manifest>

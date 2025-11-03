@@ -1,0 +1,20 @@
+/* responsive.css */
+#gjs-editor {
+  height: 100% !important;
+  width: 100% !important;
+  min-height: 300px !important;
+  overflow: auto;
+}
+ 
+@media (max-width: 770px) { /* Matches Tablet width */
+  #gjs-editor {
+    min-height: 200px; /* Adjust for tablets */
+  }
+}
+ 
+@media (max-width: 320px) { /* Matches Mobile width */
+  #gjs-editor {
+    min-height: 150px; /* Adjust for mobile */
+  }
+}
+
