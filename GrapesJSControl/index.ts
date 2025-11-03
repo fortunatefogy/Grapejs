@@ -5220,3 +5220,4 @@ export class GrapesJSControl
     attemptInject();
   }
 }
+//added a comment - anc-dev
